@@ -1,0 +1,6 @@
+{
+  "name": "SmartCalcHub",
+  "description": "SmartCalcHub is a professional and comprehensive collection of free online calculators across education, finance, health, math, and home improvement.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
