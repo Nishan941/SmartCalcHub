@@ -26,7 +26,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable} scroll-smooth`}>
-      <head><script async src="https://www.googletagmanager.com/gtag/js?id=G-L6BB2WT01J"></script><script dangerouslySetInnerHTML={{__html:`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-L6BB2WT01J');`}}/></head>
       <body suppressHydrationWarning className="bg-[#020617] text-slate-200 min-h-screen flex flex-col relative overflow-x-hidden selection:bg-cyan-500 selection:text-slate-950">
         
         {/* Glowing visual background mesh in Cyan & Purple accents */}
