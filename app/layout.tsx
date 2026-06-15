@@ -31,7 +31,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       {/* Google tag (gtag.js) */}
       <script
         async
-        src="https://www.googletagmanager.com/gtag/js?id=G-3MFXBRWJNC"
+        src="https://www.googletagmanager.com/gtag/js?id=G-0TSXVKCMS1"
       ></script>
       <script
         dangerouslySetInnerHTML={{
