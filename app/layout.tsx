@@ -26,20 +26,21 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable} scroll-smooth`}>
-     
+     <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0T5XVKCMS1" />
+  <script
+    dangerouslySetInnerHTML={{
+      __html: `
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-0T5XVKCMS1');
+      `
+    }}
+  />
+</head>
        <body suppressHydrationWarning className="bg-[#020617] text-slate-200 min-h-screen flex flex-col relative overflow-x-hidden selection:bg-cyan-500 selection:text-slate-950">
-      {/* Google tag (gtag.js) */}
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0T5XVKCMS1" />
-<script
-  dangerouslySetInnerHTML={{
-    __html: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-0T5XVKCMS1');
-    `
-  }}
-/>
+       
         {/* Glowing visual background mesh in Cyan & Purple accents */}
         <div className="fixed inset-0 pointer-events-none z-0 overflow-hidden bg-[#020617]">
           <div className="absolute top-0 left-0 right-0 bottom-0 bg-[radial-gradient(ellipse_60%_40%_at_20%_10%,rgba(6,182,212,0.06)_0%,transparent_60%)]" />
