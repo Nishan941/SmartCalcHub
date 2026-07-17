@@ -2,7 +2,7 @@ import type { Metadata } from 'next';
 import { Syne, DM_Sans } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
-import { Sparkles, MapPin } from 'lucide-react';
+import { Sparkles } from 'lucide-react';
 
 const syne = Syne({
   subsets: ['latin'],
