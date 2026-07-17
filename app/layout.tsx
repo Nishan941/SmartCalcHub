@@ -28,8 +28,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${syne.variable} ${dmSans.variable} scroll-smooth`}>
      <head>
   
-  />
-</head>
        <body suppressHydrationWarning className="bg-[#020617] text-slate-200 min-h-screen flex flex-col relative overflow-x-hidden selection:bg-cyan-500 selection:text-slate-950">
        
         {/* Glowing visual background mesh in Cyan & Purple accents */}
