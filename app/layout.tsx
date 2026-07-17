@@ -27,15 +27,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={`${syne.variable} ${dmSans.variable} scroll-smooth`}>
      <head>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0T5XVKCMS1" />
-  <script
-    dangerouslySetInnerHTML={{
-      __html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-0T5XVKCMS1');
-      `
+  
     }}
   />
 </head>
